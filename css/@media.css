@@ -38,3 +38,9 @@
     left: 0;
   }
 }
+
+@media (max-width: 425px) {
+  .center,.content {
+    max-width: 100%;
+  }
+}

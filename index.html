@@ -10,6 +10,8 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/@media.css">
+  <link rel="stylesheet" href="css/modal-login.css">
+
   <title>Traveller</title>
 
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -33,9 +35,27 @@
         " href="#">Serviços</a></li>
       <li><a class="menu-li
         " href="#">Contato</a></li>
-      <li><a class="menu-li log" href="#">Log In</a></li>
+      <li><button class="menu-li log" id="btn-log" onclick="openModal()">Log In</button></li>
     </ul>
   </nav>
+
+  <div class="center" id="modal">
+    <div class="content">
+      <div class="header-log">
+        <h2>Olá, seja bem vindo!</h2>
+        <button class="btn-close" id="btn-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+      </div>        
+        <form class="login__form">
+          <h1 class="login__title">Login</h1>
+          <input class="login-input" type="email" placeholder="e-mail">
+          <span class="login-input-border"></span>
+          <input class="login-input" type="password" placeholder="password">
+          <span class="login-input-border"></span>
+          <button class="submit-btn">Submit</button>
+          <a class="login-reset" href="#">Esqueci a senha?</a>
+        </form>
+    </div>
+  </div>
 
   <script src="js/index.js"></script>
 </body>
