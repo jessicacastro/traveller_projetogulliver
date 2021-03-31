@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/@media.css">
   <link rel="stylesheet" href="css/modal-login.css">
+  <link rel="stylesheet" href="css/footer.css">
 
   <title>Traveller</title>
 
@@ -47,15 +48,81 @@
       </div>        
         <form class="login__form">
           <h1 class="login__title">Login</h1>
-          <input class="login-input" type="email" placeholder="e-mail">
+          <input class="login-input" type="email" placeholder="e-mail" required>
           <span class="login-input-border"></span>
-          <input class="login-input" type="password" placeholder="password">
+          <input class="login-input" type="password" placeholder="password" required>
           <span class="login-input-border"></span>
-          <button class="submit-btn">Submit</button>
+          <button class="submit-btn" type="submit">Submit</button>
           <a class="login-reset" href="#">Esqueci a senha?</a>
         </form>
     </div>
   </div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="main-footer">
+      <div class="left-footer box">
+        <h2>Saiba mais</h2>
+        <div class="footer-content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo hic omnis aut, qui ullam consectetur molestiae ut fugit ipsum possimus.
+          </p>
+          <div class="social">
+            <a href="#"><span class="fab fa-facebook-f"></span></a>
+            <a href="#"><span class="fab fa-twitter"></span></a>  
+            <a href="#"><span class="fab fa-instagram"></span></a>  
+            <a href="#"><span class="fab fa-youtube"></span></a>  
+          </div>
+        </div>
+      </div>
+
+      <div class="center-footer box">
+        <h2>Endereço</h2>
+        <div class="footer-content">
+          <div class="place">
+            <span class="fas
+            fa-map-marker-alt"></span>
+            <span class="text">São Paulo, Brasil</span>
+          </div>
+          <div class="phone">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text">+55-11-99876-54321</span>
+          </div>
+          <div class="email">
+            <span class="fas fa-envelope"></span>
+            <span class="text">traveller@example.com</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right-footer box">
+        <h2>Contato</h2>
+        <div class="footer-content">
+          <form classs="form-footer" action="#">
+            <div class="email">              
+              <input class="email-footer" type="email" placeholder="e-mail" required>
+            </div>
+            <div class="msg">
+              <textarea cols="22" rows="3" class="msg-footer" placeholder="Sua mensagem *" required></textarea>
+            </div>
+            <div class="btn-footer">
+              <button class ="submit-footer" type="submit required">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>  
 
   <script src="js/index.js"></script>
 </body>
