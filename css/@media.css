@@ -11,6 +11,7 @@
 @media (max-width: 858px) {
   .checkbtn {
     display: block;
+    margin-left: 20px;
   }
   ul {
     position: fixed;
