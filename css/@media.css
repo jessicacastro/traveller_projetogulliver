@@ -67,12 +67,10 @@
     flex-direction: column;
     align-items: center;
   }
-
   .box-banner {
     width: 90%;
     margin-top: 20px;
   }
-
   .box-1 {
     background-position: -6%;
     margin-right: 40px;

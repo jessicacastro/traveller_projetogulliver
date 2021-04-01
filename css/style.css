@@ -217,7 +217,7 @@ nav ul li a, #btn-log {
 
 .box-banner:hover {
   transition: .3s;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .infos-gerais {
