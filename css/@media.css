@@ -1,3 +1,28 @@
+@media (max-width: 1024px) {
+  .infos-gerais .info-boxes {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 35px;
+    margin-top: 0;
+    padding: 10px 32px 25px 32px;
+    /* align-items: center !important; */
+  }
+
+  .infos-gerais .info-boxes .info-boxes-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .infos-gerais .info-boxes .info-boxes-content p {
+    text-align: left;
+  }
+
+  .divider img {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+
 @media (max-width: 952px) {
   label.logo {
     font-size: 30px;
@@ -38,6 +63,17 @@
   #check:checked ~ ul {
     left: 0;
   }
+  
+  .boxes-banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-banner {
+    width: 90%;
+    margin-top: 20px;
+  }
+
   footer {
     position: fixed;
     display: block;
