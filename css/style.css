@@ -256,3 +256,22 @@ nav ul li a, #btn-log {
   font-weight: 300;
   font-family: 'Rokkit', sans-serif;
 }
+
+.estados {
+  margin: 40px;  
+}
+
+.estados h2 h3 {
+font-family: 'Rokkit', sans-serif;;
+}
+
+.estados p {
+  font-family:'Ubuntu', sans-serif;;
+}
+
+.estados-img {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  margin: 40px;
+}
