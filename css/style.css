@@ -21,6 +21,7 @@ html, body {
 
 a {
   text-decoration: none;
+  color: #246182;
 }
 
 button {
@@ -283,7 +284,8 @@ font-family: 'Rokkit', sans-serif;
 }
 
 .estados p {
-  font-family:'Ubuntu', sans-serif;
+  font-family:'Rokkit', sans-serif;
+  font-weight: 300;
 }
 
 .estados-img {
@@ -294,8 +296,9 @@ font-family: 'Rokkit', sans-serif;
 
 }
 
-.guanajuato h2 {
-  color: #f79c1f;
+.guanajuato h2, .aguascalientes h2, .plaza-del-ropero h2, .michoacan h2 {
+  color: #d0472a;
+  margin-bottom: 30px;
 }
 
 .box-content-guanajuato {
@@ -314,10 +317,15 @@ font-family: 'Rokkit', sans-serif;
 .box-content-guanajuato p {
   width: 70%;
 }
+.guanajuato, .michoacan, .aguascalientes, .plaza-del-ropero {
+  font-family: 'Rokkit', sans-serif;
+  font-weight: 300;
+  color: #246182;
+}
 
-.guanajuato h3 {
+.guanajuato h3, .michoacan h3, .aguascalientes h3, .plaza-del-ropero h3 {
   margin: 40px 0 20px 0;
-  color: #f79c1f;
+  color: #d0472a;
 }
 
 .box-guanajuato {
@@ -334,4 +342,38 @@ font-family: 'Rokkit', sans-serif;
 
 .where-stay p {
   order: 2;
+}
+
+.plaza-del-ropero {
+  margin-top: 60px;
+}
+
+.content-plaza {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-plaza img {
+  width: 25%;
+}
+
+.content-plaza img:first-of-type {
+  order: 1;
+}
+
+.content-plaza div {
+  order: 2;
+  padding: 10px;
+}
+
+.content-plaza div p {
+  width: 65%;
+  margin: 0 auto;
+}
+.content-plaza img:last-of-type {
+  order: 3;
+}
+
+.content-plaza > p {
+  width: 33.3%;
 }
