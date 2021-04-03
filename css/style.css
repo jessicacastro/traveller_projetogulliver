@@ -272,7 +272,7 @@ nav ul li a, #btn-log {
 }
 
 .divider {
-  margin: 60px 0;
+  margin: 60px 0  0 0 ;
 }
 
 .estados {
@@ -321,6 +321,7 @@ font-family: 'Rokkit', sans-serif;
   font-family: 'Rokkit', sans-serif;
   font-weight: 300;
   color: #246182;
+  margin-top: 50px;
 }
 
 .guanajuato h3, .michoacan h3, .aguascalientes h3, .plaza-del-ropero h3 {
@@ -376,4 +377,30 @@ font-family: 'Rokkit', sans-serif;
 
 .content-plaza > p {
   width: 33.3%;
+}
+
+.content-micho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-micho p {
+  width: 25%;
+  padding: 5px;
+}
+
+.content-micho img {
+  width: 30%;
+}
+
+.content-micho img:last-of-type {
+  order: 3;
+}
+
+.content-micho img:first-of-type {
+  order: 1;
+}
+
+.content-micho p {
+  order: 2;
 }
