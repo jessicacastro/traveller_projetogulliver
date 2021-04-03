@@ -355,6 +355,7 @@ font-family: 'Rokkit', sans-serif;
 
 .content-plaza img {
   width: 25%;
+  margin-bottom: 5px;
 }
 
 .content-plaza img:first-of-type {
