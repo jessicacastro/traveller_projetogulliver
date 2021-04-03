@@ -44,7 +44,7 @@ footer {
 .left-footer .footer-content p {
   width: 320px;
   text-align: content;
-  color: #f79c1f;
+  color: rgba(0,160,227,1);
 }
 
 .left-footer .footer-content .social {
@@ -53,13 +53,13 @@ footer {
 
 .left-footer .footer-content .social a {
   padding: 0 2px;
-  color: #f79c1f;
+  color: rgba(0,160,227,1);
 }
 
 .left-footer .footer-content .social a .fa-facebook-f{
   height: 40px;
   width: 40px;
-  color: #f79c1f;
+  color: rgba(0,160,227,1);
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -70,7 +70,7 @@ footer {
 .left-footer .footer-content .social a .fa-twitter {
   height: 40px;
   width: 40px;
-  color: #f79c1f;
+  color: rgba(0,160,227,1);
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -81,7 +81,7 @@ footer {
 .left-footer .footer-content .social a .fa-instagram {
   height: 40px;
   width: 40px;
-  color: #f79c1f;
+  color: rgba(0,160,227,1);
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -92,7 +92,7 @@ footer {
 .left-footer .footer-content .social a .fa-youtube {
   height: 40px;
   width: 40px;
-  color: #f79c1f;
+  color: rgba(0,160,227,1);
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -108,7 +108,7 @@ footer {
 }
 
 .left-footer .footer-content .social a .fa-twitter:hover {
-  background:  #f79c1f;
+  background:  rgba(0,160,227,1);
   color: #fff;
 }
 
@@ -201,7 +201,7 @@ footer {
 }
 
 .submit-footer:hover {
-  background: #f79c1f;
-  border: 1px solid #f79c1f;
+  background: rgba(0,160,227,1);
+  border: 1px solid rgba(0,160,227,1);;
   color: #fff;  
 }
