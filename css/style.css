@@ -325,7 +325,6 @@ font-family: 'Rokkit', sans-serif;
 }
 
 .guanajuato h3, .michoacan h3, .aguascalientes h3, .plaza-del-ropero h3 {
-  margin: 40px 0 20px 0;
   color: #d0472a;
 }
 
@@ -403,4 +402,14 @@ font-family: 'Rokkit', sans-serif;
 
 .content-micho p {
   order: 2;
+}
+
+.aguascalientes-imgs {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.aguascalientes-imgs img {
+  width: 40%;
 }
