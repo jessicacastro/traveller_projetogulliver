@@ -294,6 +294,10 @@ font-family: 'Rokkit', sans-serif;
 
 }
 
+.guanajuato h2 {
+  color: #f79c1f;
+}
+
 .box-content-guanajuato {
   display: flex;
   justify-content: space-between;
@@ -309,4 +313,9 @@ font-family: 'Rokkit', sans-serif;
 
 .box-content-guanajuato p {
   width: 70%;
+}
+
+.guanajuato h3 {
+  margin: 40px 0 20px 0;
+  color: #f79c1f;
 }
