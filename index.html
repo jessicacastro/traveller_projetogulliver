@@ -17,9 +17,6 @@
 
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-
-<br>
-
   <nav>
     <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
@@ -65,13 +62,13 @@
   </div>
 
   <div class="boxes-banner">
-    <div class="box-banner box-1" id="box-aguascalientes" onclick="go('#aguascalientes')">
+    <div class="box-banner box-1" id="box-aguascalientes" onclick="goTo('#aguascalientes')">
       <h2>Aguascalientes - Isla San Marcos e o Festival de Calaveras</h2>
     </div>
-    <div class="box-banner box-2" id="box-guanajuato" onclick="go('#guanajuato')">
+    <div class="box-banner box-2" id="box-guanajuato" onclick="goTo('#guanajuato')">
       <h2>Guanajuato</h2>
     </div>
-    <div class="box-banner box-3" id="box-michoacan" onclick="go('#michoacan')">
+    <div class="box-banner box-3" id="box-michoacan" onclick="goTo('#michoacan')">
         <h2>Michoacán</h2>
     </div>
   </div>
@@ -120,14 +117,16 @@
     <div class="guanajuato" id="guanajuato">
       <h2>Guanajuato</h2>
       <br>
-        O México é uma terra de encantos mil. Seja por suas exuberantes praias, sua arqueologia milenar ou pela cultura rica e alegre, o destino já é queridinho entre os brasileiros. Mas isso não significa que já conhecemos tudo por lá. 
-        Guanajuato, por exemplo, é um lugar recheado de atrações e ainda pouco visitado por nós.
-        O estado de Guanajuato guarda nada menos do que dois Patrimônios Mundiais da UNESCO, além de Povoados Mágicos e rotas incríveis como a do Vinho e da Tequila. 
-        A capital homônima do estado é um dos Patrimônios da Humanidade. Encantadora, a cidade da época colonial está situada num pitoresco vale, rodeado pelas montanhas da Serra de Guanajuato.
-        
-        <div class="centro histórico-img">
+        <div class="box-content-guanajuato">
+          <p>
+            O México é uma terra de encantos mil. <br /> <br />
+            Seja por suas exuberantes praias, sua arqueologia milenar ou pela cultura rica e alegre, o destino já é queridinho entre os brasileiros. Mas isso não significa que já conhecemos tudo por lá. <br /><br />
+            Guanajuato, por exemplo, é um lugar recheado de atrações e ainda pouco visitado por nós. <br /><br />
+            O estado de Guanajuato guarda nada menos do que dois Patrimônios Mundiais da UNESCO, além de Povoados Mágicos e rotas incríveis como a do Vinho e da Tequila. <br /><br />
+            A capital homônima do estado é um dos Patrimônios da Humanidade. Encantadora, a cidade da época colonial está situada num pitoresco vale, rodeado pelas montanhas da Serra de Guanajuato. 
+          </p>
+         
           <img src="assets/images/Guanajuato 2.jpeg" alt="">
-
         </div>
   
         <h3>Pontos Turísticos</h3>
@@ -455,6 +454,7 @@
     </div>
   </footer>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/index.js"></script>
 </body>
 

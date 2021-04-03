@@ -8,6 +8,10 @@
   font-family: 'Rokkit', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   width: 100vw;
   height: 100vh;
@@ -288,4 +292,21 @@ font-family: 'Rokkit', sans-serif;
   display: flex;
   margin: 40px;
 
+}
+
+.box-content-guanajuato {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-content-guanajuato img {
+  max-width: 300px;
+}
+
+.box-content-guanajuato img {
+  width: 30%;
+}
+
+.box-content-guanajuato p {
+  width: 70%;
 }
