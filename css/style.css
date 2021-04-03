@@ -319,3 +319,19 @@ font-family: 'Rokkit', sans-serif;
   margin: 40px 0 20px 0;
   color: #f79c1f;
 }
+
+.box-guanajuato {
+  width: 50%;
+}
+
+.box-guanajuato:not(:first-of-type) {
+  padding-left: 60px;
+}
+
+.where-stay img {
+  order: 1;
+}
+
+.where-stay p {
+  order: 2;
+}
